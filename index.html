@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vamika Bhardwaj</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+
+  <body>
+    <!-- New Header -->
+    <header class="main-header">
+      <div class="container">
+        <div class="header-content">
+          <h1>VAMIKA BHARDWAJ</h1>
+          <p class="subtitle">Web Developer & Creative Designer</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sticky Nav -->
+    <div class="nav-wrapper">
+      <div class="container">
+        <nav>
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up">
+      <div class="container">
+        <div class="about-content">
+          <div class="profile-pic">
+            <img src="vamika.jpg" alt="Vamika Bhardwaj" />
+          </div>
+          <div class="about-text">
+            <h2>HELLO<br/>I'M VAMIKA</h2>
+            <p class="intro-line">
+             A passionate web developer in bloom ~ turning fresh ideas into pixel perfect experiences. 🌸
+            </p>
+            <p>
+              Whether I'm deep in code or moodboarding my next design inspo, I'm all about blending function with aesthetic.
+              When I'm not crafting websites, you'll catch me sipping coffee ☕, scrolling design inspo, and bringing a little digital magic into the world.
+            </p>
+            <div class="skills">
+              <span class="skill-tag">HTML & CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">UI/UX Design</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">cpp</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services dark-section" data-aos="fade-up">
+      <div class="container">
+        <h2>What I Offer</h2>
+        <div class="service-list">
+          <div class="service-item">
+            <h3>Web Development</h3>
+            <p>Creating beautiful, responsive websites that work perfectly on all devices.</p>
+          </div>
+          <div class="service-item">
+            <h3>UI/UX Design</h3>
+            <p>Designing intuitive and delightful user experiences that users love.</p>
+          </div>
+          <div class="service-item">
+            <h3>Mobile-First</h3>
+            <p>Building websites that look and work great on mobile devices first.</p>
+          </div>
+          <div class="service-item">
+            <h3>Performance</h3>
+            <p>Optimizing websites for speed and performance that users expect.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" data-aos="fade-up">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-image-wrapper">
+              <img src="https://via.placeholder.com/400x550/F4F0E9/333333?text=Bloom+&+Shop" alt="E-Commerce Project" />
+            </div>
+            <h3>Bloom & Shop</h3>
+            <p>A beautiful e-commerce platform for flower enthusiasts 🌷</p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image-wrapper">
+              <img src="https://via.placeholder.com/400x550/F4F0E9/333333?text=Creative+Portfolio" alt="Portfolio Project" />
+            </div>
+            <h3>Creative Portfolio</h3>
+            <p>An interactive portfolio website with stunning animations ✨</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image-wrapper">
+              <img src="https://via.placeholder.com/400x550/F4F0E9/333333?text=TaskFlow" alt="Task Manager Project" />
+            </div>
+            <h3>TaskFlow</h3>
+            <p>A productivity app to help organize your daily tasks 📝</p>
+            <div class="project-tech">
+              <span class="tech-tag">Vue.js</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="dark-section" data-aos="fade-up">
+      <div class="container">
+        <h2>Let's Connect</h2>
+        <form id="contactForm" >
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder="Your Message 💌" required rows="5"></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-bottom">
+        <p>&copy; 2024 Vamika Bhardwaj. Made with 💖 and lots of chai ☕</p>
+      </div>
+    </footer>
+
+    <button id="scrollTopBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true
+      });
+    </script>
+  </body>
+</html>
